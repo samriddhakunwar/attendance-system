@@ -1,0 +1,11 @@
+# real student data and face fingerprints: never commit these
+data/attendance.db
+data/*.db-journal
+# downloaded at runtime
+models/
+eval_data/
+# python / tooling
+__pycache__/
+.pytest_cache/
+.venv/
+Thumbs.db

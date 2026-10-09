@@ -1,0 +1,631 @@
+{
+ "model": "YuNet (detection) + SFace (recognition), OpenCV Model Zoo",
+ "default_threshold": 0.4,
+ "dataset": {
+  "source": "deepface unit-test images (MIT licence)",
+  "photos": 61,
+  "people": 13,
+  "pairs": 528
+ },
+ "pair_test": {
+  "n_pairs": 528,
+  "n_same": 140,
+  "n_different": 388,
+  "auc": 1.0,
+  "best": {
+   "threshold": 0.43,
+   "accuracy": 1.0,
+   "true_match_rate": 1.0,
+   "false_match_rate": 0.0
+  },
+  "at_default": {
+   "threshold": 0.4,
+   "accuracy": 0.9981060606060606,
+   "true_match_rate": 1.0,
+   "false_match_rate": 0.002577319587628866
+  },
+  "sweep": [
+   {
+    "threshold": 0.2,
+    "accuracy": 0.8541666666666666,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.19845360824742267
+   },
+   {
+    "threshold": 0.21,
+    "accuracy": 0.865530303030303,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.18298969072164947
+   },
+   {
+    "threshold": 0.22,
+    "accuracy": 0.8863636363636364,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.15463917525773196
+   },
+   {
+    "threshold": 0.23,
+    "accuracy": 0.8996212121212122,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.13659793814432988
+   },
+   {
+    "threshold": 0.24,
+    "accuracy": 0.9223484848484849,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.1056701030927835
+   },
+   {
+    "threshold": 0.25,
+    "accuracy": 0.9375,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.08505154639175258
+   },
+   {
+    "threshold": 0.26,
+    "accuracy": 0.9488636363636364,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.06958762886597938
+   },
+   {
+    "threshold": 0.27,
+    "accuracy": 0.9526515151515151,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.06443298969072164
+   },
+   {
+    "threshold": 0.28,
+    "accuracy": 0.9640151515151515,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.04896907216494845
+   },
+   {
+    "threshold": 0.29,
+    "accuracy": 0.9659090909090909,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.04639175257731959
+   },
+   {
+    "threshold": 0.3,
+    "accuracy": 0.9791666666666666,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.028350515463917526
+   },
+   {
+    "threshold": 0.31,
+    "accuracy": 0.9867424242424242,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.01804123711340206
+   },
+   {
+    "threshold": 0.32,
+    "accuracy": 0.990530303030303,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.01288659793814433
+   },
+   {
+    "threshold": 0.33,
+    "accuracy": 0.9924242424242424,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.010309278350515464
+   },
+   {
+    "threshold": 0.34,
+    "accuracy": 0.9943181818181818,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.007731958762886598
+   },
+   {
+    "threshold": 0.35,
+    "accuracy": 0.9962121212121212,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.005154639175257732
+   },
+   {
+    "threshold": 0.36,
+    "accuracy": 0.9962121212121212,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.005154639175257732
+   },
+   {
+    "threshold": 0.37,
+    "accuracy": 0.9962121212121212,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.005154639175257732
+   },
+   {
+    "threshold": 0.38,
+    "accuracy": 0.9981060606060606,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.002577319587628866
+   },
+   {
+    "threshold": 0.39,
+    "accuracy": 0.9981060606060606,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.002577319587628866
+   },
+   {
+    "threshold": 0.4,
+    "accuracy": 0.9981060606060606,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.002577319587628866
+   },
+   {
+    "threshold": 0.41,
+    "accuracy": 0.9981060606060606,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.002577319587628866
+   },
+   {
+    "threshold": 0.42,
+    "accuracy": 0.9981060606060606,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.002577319587628866
+   },
+   {
+    "threshold": 0.43,
+    "accuracy": 1.0,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.44,
+    "accuracy": 1.0,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.45,
+    "accuracy": 1.0,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.46,
+    "accuracy": 1.0,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.47,
+    "accuracy": 1.0,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.48,
+    "accuracy": 1.0,
+    "true_match_rate": 1.0,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.49,
+    "accuracy": 0.9962121212121212,
+    "true_match_rate": 0.9857142857142858,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.5,
+    "accuracy": 0.9943181818181818,
+    "true_match_rate": 0.9785714285714285,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.51,
+    "accuracy": 0.9924242424242424,
+    "true_match_rate": 0.9714285714285714,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.52,
+    "accuracy": 0.990530303030303,
+    "true_match_rate": 0.9642857142857143,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.53,
+    "accuracy": 0.9886363636363636,
+    "true_match_rate": 0.9571428571428572,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.54,
+    "accuracy": 0.9867424242424242,
+    "true_match_rate": 0.95,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.55,
+    "accuracy": 0.9848484848484849,
+    "true_match_rate": 0.9428571428571428,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.56,
+    "accuracy": 0.9829545454545454,
+    "true_match_rate": 0.9357142857142857,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.57,
+    "accuracy": 0.9810606060606061,
+    "true_match_rate": 0.9285714285714286,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.58,
+    "accuracy": 0.9791666666666666,
+    "true_match_rate": 0.9214285714285714,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.59,
+    "accuracy": 0.9772727272727273,
+    "true_match_rate": 0.9142857142857143,
+    "false_match_rate": 0.0
+   },
+   {
+    "threshold": 0.6,
+    "accuracy": 0.9753787878787878,
+    "true_match_rate": 0.9071428571428571,
+    "false_match_rate": 0.0
+   }
+  ],
+  "hist_edges": [
+   -0.2,
+   -0.15,
+   -0.1,
+   -0.05,
+   -0.0,
+   0.05,
+   0.1,
+   0.15,
+   0.2,
+   0.25,
+   0.3,
+   0.35,
+   0.4,
+   0.45,
+   0.5,
+   0.55,
+   0.6,
+   0.65,
+   0.7,
+   0.75,
+   0.8,
+   0.85,
+   0.9,
+   0.95,
+   1.0
+  ],
+  "hist_same": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3,
+   5,
+   5,
+   9,
+   20,
+   25,
+   34,
+   32,
+   7,
+   0,
+   0
+  ],
+  "hist_different": [
+   0,
+   2,
+   2,
+   18,
+   40,
+   69,
+   94,
+   86,
+   44,
+   22,
+   9,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "min_same": 0.48465627431869507,
+  "max_different": 0.4288603365421295
+ },
+ "class_simulation": {
+  "n_classes": 150,
+  "students_per_class": 9,
+  "present_student_slots": 1071,
+  "absent_student_slots": 279,
+  "sweep": [
+   {
+    "threshold": 0.2,
+    "present_found": 1.0,
+    "absent_marked_present": 0.16487455197132617,
+    "stranger_matched": 0.9133333333333333
+   },
+   {
+    "threshold": 0.21,
+    "present_found": 1.0,
+    "absent_marked_present": 0.13620071684587814,
+    "stranger_matched": 0.86
+   },
+   {
+    "threshold": 0.22,
+    "present_found": 1.0,
+    "absent_marked_present": 0.12186379928315412,
+    "stranger_matched": 0.82
+   },
+   {
+    "threshold": 0.23,
+    "present_found": 1.0,
+    "absent_marked_present": 0.10752688172043011,
+    "stranger_matched": 0.78
+   },
+   {
+    "threshold": 0.24,
+    "present_found": 1.0,
+    "absent_marked_present": 0.0931899641577061,
+    "stranger_matched": 0.6866666666666666
+   },
+   {
+    "threshold": 0.25,
+    "present_found": 1.0,
+    "absent_marked_present": 0.07168458781362007,
+    "stranger_matched": 0.6266666666666667
+   },
+   {
+    "threshold": 0.26,
+    "present_found": 1.0,
+    "absent_marked_present": 0.06093189964157706,
+    "stranger_matched": 0.5666666666666667
+   },
+   {
+    "threshold": 0.27,
+    "present_found": 1.0,
+    "absent_marked_present": 0.05017921146953405,
+    "stranger_matched": 0.46
+   },
+   {
+    "threshold": 0.28,
+    "present_found": 1.0,
+    "absent_marked_present": 0.043010752688172046,
+    "stranger_matched": 0.35333333333333333
+   },
+   {
+    "threshold": 0.29,
+    "present_found": 1.0,
+    "absent_marked_present": 0.02867383512544803,
+    "stranger_matched": 0.29333333333333333
+   },
+   {
+    "threshold": 0.3,
+    "present_found": 1.0,
+    "absent_marked_present": 0.025089605734767026,
+    "stranger_matched": 0.22
+   },
+   {
+    "threshold": 0.31,
+    "present_found": 1.0,
+    "absent_marked_present": 0.017921146953405017,
+    "stranger_matched": 0.16666666666666666
+   },
+   {
+    "threshold": 0.32,
+    "present_found": 1.0,
+    "absent_marked_present": 0.010752688172043012,
+    "stranger_matched": 0.08666666666666667
+   },
+   {
+    "threshold": 0.33,
+    "present_found": 1.0,
+    "absent_marked_present": 0.007168458781362007,
+    "stranger_matched": 0.06
+   },
+   {
+    "threshold": 0.34,
+    "present_found": 1.0,
+    "absent_marked_present": 0.007168458781362007,
+    "stranger_matched": 0.04666666666666667
+   },
+   {
+    "threshold": 0.35,
+    "present_found": 1.0,
+    "absent_marked_present": 0.0035842293906810036,
+    "stranger_matched": 0.03333333333333333
+   },
+   {
+    "threshold": 0.36,
+    "present_found": 1.0,
+    "absent_marked_present": 0.0035842293906810036,
+    "stranger_matched": 0.03333333333333333
+   },
+   {
+    "threshold": 0.37,
+    "present_found": 1.0,
+    "absent_marked_present": 0.0035842293906810036,
+    "stranger_matched": 0.03333333333333333
+   },
+   {
+    "threshold": 0.38,
+    "present_found": 1.0,
+    "absent_marked_present": 0.0035842293906810036,
+    "stranger_matched": 0.02
+   },
+   {
+    "threshold": 0.39,
+    "present_found": 0.9990662931839402,
+    "absent_marked_present": 0.0035842293906810036,
+    "stranger_matched": 0.006666666666666667
+   },
+   {
+    "threshold": 0.4,
+    "present_found": 0.9990662931839402,
+    "absent_marked_present": 0.0035842293906810036,
+    "stranger_matched": 0.006666666666666667
+   },
+   {
+    "threshold": 0.41,
+    "present_found": 0.9971988795518207,
+    "absent_marked_present": 0.0035842293906810036,
+    "stranger_matched": 0.006666666666666667
+   },
+   {
+    "threshold": 0.42,
+    "present_found": 0.996265172735761,
+    "absent_marked_present": 0.0035842293906810036,
+    "stranger_matched": 0.006666666666666667
+   },
+   {
+    "threshold": 0.43,
+    "present_found": 0.996265172735761,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.006666666666666667
+   },
+   {
+    "threshold": 0.44,
+    "present_found": 0.996265172735761,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.45,
+    "present_found": 0.9953314659197012,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.46,
+    "present_found": 0.9953314659197012,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.47,
+    "present_found": 0.992530345471522,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.48,
+    "present_found": 0.9897292250233427,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.49,
+    "present_found": 0.9859943977591037,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.5,
+    "present_found": 0.9803921568627451,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.51,
+    "present_found": 0.976657329598506,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.52,
+    "present_found": 0.9710550887021475,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.53,
+    "present_found": 0.9701213818860878,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.54,
+    "present_found": 0.9626517273576097,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.55,
+    "present_found": 0.9561157796451915,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.56,
+    "present_found": 0.9514472455648926,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.57,
+    "present_found": 0.9467787114845938,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.58,
+    "present_found": 0.9393090569561158,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.59,
+    "present_found": 0.9318394024276377,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   },
+   {
+    "threshold": 0.6,
+    "present_found": 0.9262371615312792,
+    "absent_marked_present": 0.0,
+    "stranger_matched": 0.0
+   }
+  ],
+  "at_default": {
+   "threshold": 0.4,
+   "present_found": 0.9990662931839402,
+   "absent_marked_present": 0.0035842293906810036,
+   "stranger_matched": 0.006666666666666667
+  },
+  "examples": [
+   {
+    "faces_in_photo": 11,
+    "faces_detected": 11
+   },
+   {
+    "faces_in_photo": 9,
+    "faces_detected": 9
+   },
+   {
+    "faces_in_photo": 10,
+    "faces_detected": 11
+   }
+  ]
+ }
+}
